@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48244B3117A4E3CA00BBB81F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48244B3017A4E3CA00BBB81F /* Cocoa.framework */; };
+		48244B3B17A4E3CA00BBB81F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48244B3917A4E3CA00BBB81F /* InfoPlist.strings */; };
+		48244B3D17A4E3CA00BBB81F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48244B3C17A4E3CA00BBB81F /* main.m */; };
+		48244B4117A4E3CA00BBB81F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 48244B3F17A4E3CA00BBB81F /* Credits.rtf */; };
+		48244B4417A4E3CA00BBB81F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48244B4317A4E3CA00BBB81F /* AppDelegate.m */; };
+		48244B4717A4E3CA00BBB81F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48244B4517A4E3CA00BBB81F /* MainMenu.xib */; };
+		48244B4A17A4E3CA00BBB81F /* CodelessDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48244B4817A4E3CA00BBB81F /* CodelessDemo.xcdatamodeld */; };
+		48244B5217A4E4C900BBB81F /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 48244B5117A4E4C900BBB81F /* Course.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48244B2D17A4E3CA00BBB81F /* CodelessDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodelessDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48244B3017A4E3CA00BBB81F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		48244B3317A4E3CA00BBB81F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		48244B3417A4E3CA00BBB81F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		48244B3517A4E3CA00BBB81F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48244B3817A4E3CA00BBB81F /* CodelessDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodelessDemo-Info.plist"; sourceTree = "<group>"; };
+		48244B3A17A4E3CA00BBB81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48244B3C17A4E3CA00BBB81F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48244B3E17A4E3CA00BBB81F /* CodelessDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CodelessDemo-Prefix.pch"; sourceTree = "<group>"; };
+		48244B4017A4E3CA00BBB81F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		48244B4217A4E3CA00BBB81F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48244B4317A4E3CA00BBB81F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48244B4617A4E3CA00BBB81F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		48244B4917A4E3CA00BBB81F /* CodelessDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodelessDemo.xcdatamodel; sourceTree = "<group>"; };
+		48244B5017A4E4C900BBB81F /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		48244B5117A4E4C900BBB81F /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48244B2A17A4E3CA00BBB81F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48244B3117A4E3CA00BBB81F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48244B2417A4E3CA00BBB81F = {
+			isa = PBXGroup;
+			children = (
+				48244B3617A4E3CA00BBB81F /* CodelessDemo */,
+				48244B2F17A4E3CA00BBB81F /* Frameworks */,
+				48244B2E17A4E3CA00BBB81F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48244B2E17A4E3CA00BBB81F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48244B2D17A4E3CA00BBB81F /* CodelessDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48244B2F17A4E3CA00BBB81F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48244B3017A4E3CA00BBB81F /* Cocoa.framework */,
+				48244B3217A4E3CA00BBB81F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48244B3217A4E3CA00BBB81F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48244B3317A4E3CA00BBB81F /* AppKit.framework */,
+				48244B3417A4E3CA00BBB81F /* CoreData.framework */,
+				48244B3517A4E3CA00BBB81F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		48244B3617A4E3CA00BBB81F /* CodelessDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48244B4217A4E3CA00BBB81F /* AppDelegate.h */,
+				48244B4317A4E3CA00BBB81F /* AppDelegate.m */,
+				48244B4517A4E3CA00BBB81F /* MainMenu.xib */,
+				48244B4817A4E3CA00BBB81F /* CodelessDemo.xcdatamodeld */,
+				48244B5017A4E4C900BBB81F /* Course.h */,
+				48244B5117A4E4C900BBB81F /* Course.m */,
+				48244B3717A4E3CA00BBB81F /* Supporting Files */,
+			);
+			path = CodelessDemo;
+			sourceTree = "<group>";
+		};
+		48244B3717A4E3CA00BBB81F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48244B3817A4E3CA00BBB81F /* CodelessDemo-Info.plist */,
+				48244B3917A4E3CA00BBB81F /* InfoPlist.strings */,
+				48244B3C17A4E3CA00BBB81F /* main.m */,
+				48244B3E17A4E3CA00BBB81F /* CodelessDemo-Prefix.pch */,
+				48244B3F17A4E3CA00BBB81F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48244B2C17A4E3CA00BBB81F /* CodelessDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48244B4D17A4E3CA00BBB81F /* Build configuration list for PBXNativeTarget "CodelessDemo" */;
+			buildPhases = (
+				48244B2917A4E3CA00BBB81F /* Sources */,
+				48244B2A17A4E3CA00BBB81F /* Frameworks */,
+				48244B2B17A4E3CA00BBB81F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodelessDemo;
+			productName = CodelessDemo;
+			productReference = 48244B2D17A4E3CA00BBB81F /* CodelessDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48244B2517A4E3CA00BBB81F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aditya Sinha";
+			};
+			buildConfigurationList = 48244B2817A4E3CA00BBB81F /* Build configuration list for PBXProject "CodelessDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48244B2417A4E3CA00BBB81F;
+			productRefGroup = 48244B2E17A4E3CA00BBB81F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48244B2C17A4E3CA00BBB81F /* CodelessDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48244B2B17A4E3CA00BBB81F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48244B3B17A4E3CA00BBB81F /* InfoPlist.strings in Resources */,
+				48244B4117A4E3CA00BBB81F /* Credits.rtf in Resources */,
+				48244B4717A4E3CA00BBB81F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48244B2917A4E3CA00BBB81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48244B3D17A4E3CA00BBB81F /* main.m in Sources */,
+				48244B4417A4E3CA00BBB81F /* AppDelegate.m in Sources */,
+				48244B4A17A4E3CA00BBB81F /* CodelessDemo.xcdatamodeld in Sources */,
+				48244B5217A4E4C900BBB81F /* Course.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48244B3917A4E3CA00BBB81F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48244B3A17A4E3CA00BBB81F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48244B3F17A4E3CA00BBB81F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48244B4017A4E3CA00BBB81F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		48244B4517A4E3CA00BBB81F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48244B4617A4E3CA00BBB81F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48244B4B17A4E3CA00BBB81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		48244B4C17A4E3CA00BBB81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		48244B4E17A4E3CA00BBB81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodelessDemo/CodelessDemo-Prefix.pch";
+				INFOPLIST_FILE = "CodelessDemo/CodelessDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48244B4F17A4E3CA00BBB81F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CodelessDemo/CodelessDemo-Prefix.pch";
+				INFOPLIST_FILE = "CodelessDemo/CodelessDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48244B2817A4E3CA00BBB81F /* Build configuration list for PBXProject "CodelessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48244B4B17A4E3CA00BBB81F /* Debug */,
+				48244B4C17A4E3CA00BBB81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48244B4D17A4E3CA00BBB81F /* Build configuration list for PBXNativeTarget "CodelessDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48244B4E17A4E3CA00BBB81F /* Debug */,
+				48244B4F17A4E3CA00BBB81F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48244B4817A4E3CA00BBB81F /* CodelessDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48244B4917A4E3CA00BBB81F /* CodelessDemo.xcdatamodel */,
+			);
+			currentVersion = 48244B4917A4E3CA00BBB81F /* CodelessDemo.xcdatamodel */;
+			path = CodelessDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48244B2517A4E3CA00BBB81F /* Project object */;
+}
