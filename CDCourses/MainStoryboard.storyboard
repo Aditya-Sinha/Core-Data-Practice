@@ -31,7 +31,7 @@
                     <navigationItem key="navigationItem" title="Courses" id="bBO-0l-sUB">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="3Eg-Jr-72z">
                             <connections>
-                                <segue destination="qBQ-e0-jbV" kind="modal" id="xCo-zs-sBh"/>
+                                <segue destination="qBQ-e0-jbV" kind="modal" identifier="AddCourse" id="xCo-zs-sBh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

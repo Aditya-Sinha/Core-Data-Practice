@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ASAddCourseViewController.h"
 
-@interface ASCoursesTableViewController : UITableViewController
+@interface ASCoursesTableViewController : UITableViewController<AddCourseViewControllerDelegate, NSFetchedResultsControllerDelegate>
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, strong) NSFetchedResultsController *fetchedResultsController; 
