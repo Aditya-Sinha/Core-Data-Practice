@@ -6,11 +6,14 @@
 //  Copyright (c) 2013 Aditya Sinha. All rights reserved.
 //
 #include<stdio.h>
+#include <stdbool.h>
 #define SIZE 5
-void insert();
-void delet();
+void insert(int);
+void delete();
 void display();
-int queue[SIZE], rear=0, front=0, item, count=0;
+int size();
+bool isEmpty();
+int queue[SIZE], rear=0, front=0, item;
 int main(int argc, const char * argv[])
 {
     int ch;
@@ -22,10 +25,12 @@ int main(int argc, const char * argv[])
         switch(ch)
         {
             case 1:
-                insert();
+                printf("\n\nEnter ITEM: ");
+                scanf("%d", &item);
+                insert(item);
                 break;
             case 2:
-                delet();
+                delete();
                 break;
             case 3:
                 display();
@@ -39,38 +44,45 @@ int main(int argc, const char * argv[])
     return 0;
 }
 
-void insert()
+int size()
 {
-    if(count == SIZE)
+    return (SIZE-front+rear)%SIZE;
+}
+
+bool isEmpty()
+{
+    return (front==rear);
+}
+
+void insert(int item)
+{
+    if(size() == SIZE-1)
         printf("\n\nQueue is full.");
     else
     {
-        printf("\n\nEnter ITEM: ");
-        scanf("%d", &item);
         queue[rear]=item;
         rear = (rear+1)%SIZE;
         printf("\n\nItem inserted: %d\n", item);
-        count++;
+       
     }
 }
-void delet()
+void delete()
 {
-    if(count == 0)
+    if(isEmpty())
         printf("\n\nQueue is empty.\n");
     else
     {
         item = queue[front];
         front= (front+1)%SIZE;
         printf("\n\nITEM deleted: %d", item);
-        count--;
     } 
 }
 
 void display()
 {
     int i=front,temp=0;
-    temp=count;
-    if(count == 0)
+    temp=size();
+    if(isEmpty() )
         printf("\n\nQueue is empty.\n");
     while (temp!=0) {
         printf("\t %d",queue[i]);
